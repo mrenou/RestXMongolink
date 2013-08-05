@@ -87,9 +87,9 @@
   		</dependency>
     </dependencies>
     <repositories>
-  	<repository>
-   		<id>MongoLink</id>
-    	<url>http://repository-mongolink.forge.cloudbees.com/release/</url>
-  	</repository>
-</repositories>
+  		<repository>
+   			<id>MongoLink</id>
+    		<url>http://repository-mongolink.forge.cloudbees.com/release/</url>
+  		</repository>
+	</repositories>
 </project>
