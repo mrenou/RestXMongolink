@@ -11,10 +11,12 @@
         </encoder>
     </appender>
 
-    <logger name="org.eclipse.jetty.server.AbstractConnector" level="WARN" />
-    <logger name="org.eclipse.jetty.server.handler.ContextHandler" level="WARN" />
-    <logger name="org.hibernate.validator.internal.engine.ConfigurationImpl" level="WARN" />
-    <logger name="restx.factory.Factory" level="WARN" />
+    <logger name="org.eclipse.jetty.server.AbstractConnector" level="ERROR" />
+    <logger name="org.eclipse.jetty.server.handler.ContextHandler" level="ERROR" />
+    <!-- logger name="org.hibernate.validator.internal.engine.ConfigurationImpl" level="WARN" /-->
+    <logger name="restx.mongolink.MongolinkFactory" level="ERROR" />
+    <logger name="restx.factory.Factory" level="ERROR" />
+    <logger name="restx.factory.FactoryMachine" level="ERROR" />
 
     <root level="info">
         <appender-ref ref="FILE"/>
